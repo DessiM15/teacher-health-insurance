@@ -9,8 +9,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        blue: {
+          DEFAULT: '#1A5FAF',
+          dark: '#0F3F7A',
+          mid: '#2272C3',
+          light: '#EBF3FC',
+        },
+        gold: {
+          DEFAULT: '#C9A040',
+          light: '#E8C97A',
+          dark: '#A07C20',
+        },
+        'off-white': '#F8FAFD',
+        slate: '#334155',
+      },
+      fontFamily: {
+        display: ['Plus Jakarta Sans', 'sans-serif'],
+        body: ['Plus Jakarta Sans', 'sans-serif'],
+        serif: ['Lora', 'Georgia', 'serif'],
+        mono: ['IBM Plex Mono', 'monospace'],
       },
     },
   },

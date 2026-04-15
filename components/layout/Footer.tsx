@@ -29,9 +29,9 @@ export default function Footer() {
       {/* Gold top rule */}
       <div className="h-px bg-[#C9A040]" />
 
-      <div className="max-w-6xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
         {/* Left: Company info */}
-        <div>
+        <div className="flex flex-col items-center md:items-start">
           <Image
             src="/logo.png"
             alt="New Horizons Benefits Group"
@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
 
         {/* Center: Social */}
-        <div>
+        <div className="flex flex-col items-center md:items-start">
           <p className="text-[#C9A040]/80 text-sm uppercase tracking-widest mb-3">
             Connect
           </p>
@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
 
         {/* Right: Licensing */}
-        <div>
+        <div className="flex flex-col items-center md:items-start">
           <span className="inline-block border border-[#C9A040]/40 text-[#C9A040]/80 text-sm px-3 py-1 rounded-full mb-3">
             Licensed in TX · LA · OK · CA
           </span>
@@ -96,7 +96,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="max-w-6xl mx-auto px-6 mt-8 pt-6 border-t border-white/10 pb-8">
+      <div className="max-w-6xl mx-auto px-6 mt-8 pt-6 border-t border-white/10 pb-8 text-center md:text-left">
         <p className="text-white/40 text-sm">
           © 2026 New Horizons Benefits Group. All rights reserved.
         </p>

@@ -33,14 +33,22 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-[72px]">
         {/* Left: Logo + Company Name */}
         <a href="#" className="flex items-center gap-3" onClick={closeMobile}>
-          <Image
-            src="/logo.png"
-            alt="New Horizons Benefits Group"
-            width={64}
-            height={64}
-            className="h-[64px] w-auto"
-            priority
-          />
+          <span
+            className={`inline-flex transition-all duration-300 ${
+              scrolled || mobileOpen
+                ? "bg-white rounded-lg p-1 shadow-sm"
+                : ""
+            }`}
+          >
+            <Image
+              src="/logo.png"
+              alt="New Horizons Benefits Group"
+              width={64}
+              height={64}
+              className="h-[64px] w-auto"
+              priority
+            />
+          </span>
           <span
             className={`hidden md:inline-block font-display font-bold text-sm transition-colors duration-300 ${
               scrolled || mobileOpen ? "text-[#0F3F7A]" : "text-white"

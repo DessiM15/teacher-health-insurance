@@ -1,0 +1,114 @@
+"use client";
+
+import { ShieldCheck } from "lucide-react";
+
+const trustItems = [
+  "Multi-Carrier Access",
+  "No Cost to You",
+  "PHCS PPO Network",
+];
+
+export default function Hero() {
+  return (
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[linear-gradient(135deg,#0F3F7A_0%,#1A5FAF_50%,#2272C3_100%)]">
+      {/* Background wave texture */}
+      <svg
+        className="absolute inset-0 w-full h-full"
+        viewBox="0 0 1440 900"
+        fill="none"
+        preserveAspectRatio="xMidYMid slice"
+        aria-hidden="true"
+      >
+        <path
+          d="M0 300 Q360 200 720 350 T1440 250 V900 H0Z"
+          fill="white"
+          opacity="0.06"
+        />
+        <path
+          d="M0 500 Q360 400 720 550 T1440 450 V900 H0Z"
+          fill="white"
+          opacity="0.06"
+        />
+        <path
+          d="M0 650 Q360 580 720 700 T1440 620 V900 H0Z"
+          fill="white"
+          opacity="0.06"
+        />
+      </svg>
+
+      {/* Content */}
+      <div className="relative z-10 max-w-3xl mx-auto text-center px-6 flex flex-col items-center justify-center py-32">
+        {/* Shield Icon */}
+        <div
+          className="mb-6 opacity-0 animate-[fadeUp_0.6s_ease_0.1s_forwards]"
+        >
+          <ShieldCheck
+            size={56}
+            className="text-[#C9A040]"
+            style={{ filter: "drop-shadow(0 0 20px rgba(201,160,64,0.4))" }}
+          />
+        </div>
+
+        {/* Headline */}
+        <h1
+          className="font-display font-extrabold text-white leading-tight mb-4 opacity-0 animate-[fadeUp_0.6s_ease_0.2s_forwards]"
+          style={{ fontSize: "clamp(2.2rem, 4.5vw, 3.5rem)" }}
+        >
+          Texas Teachers Are Overpaying for Health Insurance. Let&apos;s Change
+          That.
+        </h1>
+
+        {/* Gold rule */}
+        <div
+          className="h-[3px] w-20 bg-[#C9A040] mx-auto my-6 opacity-0 animate-[fadeUp_0.6s_ease_0.3s_forwards]"
+        />
+
+        {/* Subheadline */}
+        <p
+          className="font-body text-white/80 text-lg max-w-xl mx-auto mb-8 opacity-0 animate-[fadeUp_0.6s_ease_0.4s_forwards]"
+        >
+          New Horizons Benefits Group helps teachers find better coverage and
+          keep more of their paycheck — through access to one of the largest PPO
+          networks in the country.
+        </p>
+
+        {/* Primary CTA */}
+        <a
+          href="#savings-review"
+          className="inline-block bg-[#C9A040] text-[#0F3F7A] font-bold text-lg px-10 py-4 rounded-xl hover:bg-[#A07C20] transition-colors duration-200 shadow-[0_4px_20px_rgba(201,160,64,0.4)] mb-4 opacity-0 animate-[fadeUp_0.6s_ease_0.5s_forwards]"
+        >
+          Get My Free Savings Review →
+        </a>
+
+        {/* Trust strip */}
+        <div
+          className="flex gap-6 justify-center flex-wrap mt-4 opacity-0 animate-[fadeUp_0.6s_ease_0.6s_forwards]"
+        >
+          {trustItems.map((item) => (
+            <span
+              key={item}
+              className="flex items-center gap-1.5 text-sm text-white/75 font-body"
+            >
+              <span className="text-[#C9A040]">✓</span>
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Bottom wave transition */}
+      <svg
+        className="absolute bottom-0 left-0 w-full"
+        viewBox="0 0 1440 80"
+        fill="none"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path
+          d="M0 40 Q360 0 720 40 T1440 40 V80 H0Z"
+          fill="#F8FAFD"
+        />
+      </svg>
+    </section>
+  );
+}

@@ -1,9 +1,16 @@
+"use client";
+
+import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/sections/Hero";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
+
 export default function Home() {
+  useScrollReveal();
+
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-dark">
-        New Horizons Benefits Group
-      </h1>
-    </main>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 }

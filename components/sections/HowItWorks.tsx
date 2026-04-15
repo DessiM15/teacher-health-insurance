@@ -21,7 +21,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="bg-[#F8FAFD] py-20 px-6">
+    <section id="how-it-works" className="bg-[#F8FAFD] py-20 px-6 scroll-mt-20">
       {/* Header */}
       <div className="max-w-3xl mx-auto text-center mb-14">
         <span className="font-display font-medium text-[0.8rem] uppercase tracking-widest text-[#C9A040]">

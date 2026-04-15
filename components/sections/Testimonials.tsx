@@ -29,7 +29,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-[#F1F5F9] py-20 px-6">
+    <section id="testimonials" className="bg-[#F1F5F9] py-20 px-6 scroll-mt-20">
       {/* Header */}
       <div className="max-w-3xl mx-auto text-center mb-14">
         <span className="font-display font-medium text-[0.8rem] uppercase tracking-widest text-[#C9A040]">

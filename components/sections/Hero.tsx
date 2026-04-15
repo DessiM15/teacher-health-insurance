@@ -10,8 +10,22 @@ const trustItems = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[linear-gradient(135deg,#0F3F7A_0%,#1A5FAF_50%,#2272C3_100%)]">
-      {/* Background wave texture */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/health-insurance-hero.mp4" type="video/mp4" />
+      </video>
+
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(15,63,122,0.88)_0%,rgba(26,95,175,0.85)_50%,rgba(34,114,195,0.82)_100%)]" />
+
+      {/* SVG wave texture */}
       <svg
         className="absolute inset-0 w-full h-full"
         viewBox="0 0 1440 900"
@@ -22,26 +36,24 @@ export default function Hero() {
         <path
           d="M0 300 Q360 200 720 350 T1440 250 V900 H0Z"
           fill="white"
-          opacity="0.06"
+          opacity="0.04"
         />
         <path
           d="M0 500 Q360 400 720 550 T1440 450 V900 H0Z"
           fill="white"
-          opacity="0.06"
+          opacity="0.04"
         />
         <path
           d="M0 650 Q360 580 720 700 T1440 620 V900 H0Z"
           fill="white"
-          opacity="0.06"
+          opacity="0.04"
         />
       </svg>
 
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto text-center px-6 flex flex-col items-center justify-center py-32">
         {/* Shield Icon */}
-        <div
-          className="mb-6 opacity-0 animate-[fadeUp_0.6s_ease_0.1s_forwards]"
-        >
+        <div className="mb-6 opacity-0 animate-[fadeUp_0.6s_ease_0.1s_forwards]">
           <ShieldCheck
             size={56}
             className="text-[#C9A040]"
@@ -59,14 +71,10 @@ export default function Hero() {
         </h1>
 
         {/* Gold rule */}
-        <div
-          className="h-[3px] w-20 bg-[#C9A040] mx-auto my-6 opacity-0 animate-[fadeUp_0.6s_ease_0.3s_forwards]"
-        />
+        <div className="h-[3px] w-20 bg-[#C9A040] mx-auto my-6 opacity-0 animate-[fadeUp_0.6s_ease_0.3s_forwards]" />
 
         {/* Subheadline */}
-        <p
-          className="font-body text-white/80 text-lg max-w-xl mx-auto mb-8 opacity-0 animate-[fadeUp_0.6s_ease_0.4s_forwards]"
-        >
+        <p className="font-body text-white/80 text-lg max-w-xl mx-auto mb-8 opacity-0 animate-[fadeUp_0.6s_ease_0.4s_forwards]">
           New Horizons Benefits Group helps teachers find better coverage and
           keep more of their paycheck — through access to one of the largest PPO
           networks in the country.
@@ -81,9 +89,7 @@ export default function Hero() {
         </a>
 
         {/* Trust strip */}
-        <div
-          className="flex gap-6 justify-center flex-wrap mt-4 opacity-0 animate-[fadeUp_0.6s_ease_0.6s_forwards]"
-        >
+        <div className="flex gap-6 justify-center flex-wrap mt-4 opacity-0 animate-[fadeUp_0.6s_ease_0.6s_forwards]">
           {trustItems.map((item) => (
             <span
               key={item}
@@ -104,10 +110,7 @@ export default function Hero() {
         preserveAspectRatio="none"
         aria-hidden="true"
       >
-        <path
-          d="M0 40 Q360 0 720 40 T1440 40 V80 H0Z"
-          fill="#F8FAFD"
-        />
+        <path d="M0 40 Q360 0 720 40 T1440 40 V80 H0Z" fill="#F8FAFD" />
       </svg>
     </section>
   );

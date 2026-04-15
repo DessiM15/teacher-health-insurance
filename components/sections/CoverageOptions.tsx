@@ -42,7 +42,7 @@ const cards = [
 
 export default function CoverageOptions() {
   return (
-    <section className="bg-[#F8FAFD] py-20 px-6">
+    <section id="coverage" className="bg-[#F8FAFD] py-20 px-6 scroll-mt-20">
       {/* Header */}
       <div className="max-w-3xl mx-auto text-center mb-14">
         <span className="font-display font-medium text-[0.8rem] uppercase tracking-widest text-[#C9A040]">

@@ -24,14 +24,18 @@ export default function Navbar() {
         {/* Left: Logo + Company Name */}
         <a href="#" className="flex items-center gap-3">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt="New Horizons Benefits Group"
             width={52}
             height={52}
-            className="h-[52px] w-auto rounded"
+            className="h-[52px] w-auto"
             priority
           />
-          <span className="hidden md:inline-block font-display font-bold text-sm text-[#0F3F7A]">
+          <span
+            className={`hidden md:inline-block font-display font-bold text-sm transition-colors duration-300 ${
+              scrolled ? "text-[#0F3F7A]" : "text-white"
+            }`}
+          >
             New Horizons Benefits Group
           </span>
         </a>

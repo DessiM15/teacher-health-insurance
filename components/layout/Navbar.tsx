@@ -36,9 +36,9 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="New Horizons Benefits Group"
-            width={52}
-            height={52}
-            className="h-[52px] w-auto"
+            width={64}
+            height={64}
+            className="h-[64px] w-auto"
             priority
           />
           <span

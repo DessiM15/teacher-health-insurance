@@ -35,27 +35,27 @@ export default function Footer() {
           <Image
             src="/logo.png"
             alt="New Horizons Benefits Group"
-            width={44}
-            height={44}
-            className="h-[44px] w-auto mb-3"
+            width={56}
+            height={56}
+            className="h-[56px] w-auto mb-3"
           />
-          <p className="font-display font-bold text-white text-sm">
+          <p className="font-display font-bold text-white text-base">
             New Horizons Benefits Group
           </p>
-          <p className="text-white/60 text-xs mt-1">
+          <p className="text-white/60 text-sm mt-1">
             Rigo Cuellar | Independent Agent
           </p>
-          <p className="text-white/50 text-xs mt-1">
+          <p className="text-white/50 text-sm mt-1">
             202 S. Coleman Suite 200, Prosper, TX 75078
           </p>
-          <p className="text-white/50 text-xs">
+          <p className="text-white/50 text-sm">
             (469) 831-2672 | robert@newhorizonsbenefits.com
           </p>
         </div>
 
         {/* Center: Social */}
         <div>
-          <p className="text-[#C9A040]/80 text-xs uppercase tracking-widest mb-3">
+          <p className="text-[#C9A040]/80 text-sm uppercase tracking-widest mb-3">
             Connect
           </p>
           <div className="flex items-center gap-4">
@@ -83,13 +83,13 @@ export default function Footer() {
 
         {/* Right: Licensing */}
         <div>
-          <span className="inline-block border border-[#C9A040]/40 text-[#C9A040]/80 text-xs px-3 py-1 rounded-full mb-3">
+          <span className="inline-block border border-[#C9A040]/40 text-[#C9A040]/80 text-sm px-3 py-1 rounded-full mb-3">
             Licensed in TX · LA · OK · CA
           </span>
-          <p className="text-white/60 text-xs">
+          <p className="text-white/60 text-sm">
             Affiliated with Teachers Pension
           </p>
-          <p className="text-white/50 text-xs mt-1">
+          <p className="text-white/50 text-sm mt-1">
             Serving Texas Educators
           </p>
         </div>
@@ -97,10 +97,10 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="max-w-6xl mx-auto px-6 mt-8 pt-6 border-t border-white/10 pb-8">
-        <p className="text-white/40 text-xs">
+        <p className="text-white/40 text-sm">
           © 2026 New Horizons Benefits Group. All rights reserved.
         </p>
-        <p className="text-white/30 text-xs mt-1">
+        <p className="text-white/30 text-sm mt-1">
           New Horizons Benefits is an independent insurance agency. Products and
           availability vary by state. This site does not constitute an offer of
           insurance.

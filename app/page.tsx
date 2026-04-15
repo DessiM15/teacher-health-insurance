@@ -6,6 +6,9 @@ import StatsBar from "@/components/sections/StatsBar";
 import CoverageOptions from "@/components/sections/CoverageOptions";
 import NetworkSection from "@/components/sections/NetworkSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
+import WhoIsItFor from "@/components/sections/WhoIsItFor";
+import HowItWorks from "@/components/sections/HowItWorks";
+import Testimonials from "@/components/sections/Testimonials";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function Home() {
@@ -19,6 +22,9 @@ export default function Home() {
       <CoverageOptions />
       <NetworkSection />
       <FeaturesSection />
+      <WhoIsItFor />
+      <HowItWorks />
+      <Testimonials />
     </>
   );
 }

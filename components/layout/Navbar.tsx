@@ -68,7 +68,7 @@ export default function Navbar() {
         {/* Right: CTA + Mobile toggle */}
         <div className="flex items-center gap-4">
           <a
-            href="#savings-review"
+            href="#lead-form"
             className="hidden sm:inline-block bg-[#C9A040] text-[#0F3F7A] font-semibold rounded-lg px-5 py-2 text-sm hover:bg-[#A07C20] transition-colors duration-200"
           >
             Check My Coverage Options
@@ -108,7 +108,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#savings-review"
+            href="#lead-form"
             onClick={closeMobile}
             className="bg-[#C9A040] text-[#0F3F7A] font-semibold rounded-lg px-5 py-2.5 text-sm text-center hover:bg-[#A07C20] transition-colors duration-200"
           >

@@ -82,7 +82,7 @@ export default function Hero() {
 
         {/* Primary CTA */}
         <a
-          href="#savings-review"
+          href="#lead-form"
           className="inline-block bg-[#C9A040] text-[#0F3F7A] font-bold text-lg px-10 py-4 rounded-xl hover:bg-[#A07C20] transition-colors duration-200 shadow-[0_4px_20px_rgba(201,160,64,0.4)] mb-4 opacity-0 animate-[fadeUp_0.6s_ease_0.5s_forwards]"
         >
           Get My Free Savings Review →

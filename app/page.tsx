@@ -9,6 +9,8 @@ import FeaturesSection from "@/components/sections/FeaturesSection";
 import WhoIsItFor from "@/components/sections/WhoIsItFor";
 import HowItWorks from "@/components/sections/HowItWorks";
 import Testimonials from "@/components/sections/Testimonials";
+import LeadForm from "@/components/sections/LeadForm";
+import Footer from "@/components/layout/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function Home() {
@@ -25,6 +27,8 @@ export default function Home() {
       <WhoIsItFor />
       <HowItWorks />
       <Testimonials />
+      <LeadForm />
+      <Footer />
     </>
   );
 }

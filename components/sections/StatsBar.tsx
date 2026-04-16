@@ -1,6 +1,6 @@
 export default function StatsBar() {
   const stats = [
-    { value: "$200–$500", label: "Monthly Savings for Most Teachers" },
+    { value: "$200–$500", label: "Monthly Savings for Most Clients" },
     { value: "PHCS PPO", label: "One of the Largest Networks in the Country" },
     { value: "$0", label: "Cost for Your Coverage Review" },
   ];

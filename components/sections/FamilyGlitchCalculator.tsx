@@ -74,13 +74,13 @@ export default function FamilyGlitchCalculator() {
           Free Tool
         </span>
         <h2 className="font-display font-extrabold text-[#0F3F7A] text-3xl md:text-4xl mt-3 mb-3">
-          Teacher Savings Calculator
+          Health Insurance Savings Calculator
         </h2>
         <p className="font-display font-medium text-[#1A5FAF] text-lg mb-4">
           Family Glitch Affordability Calculator
         </p>
         <p className="font-body text-[#334155] text-[0.9375rem] max-w-2xl mx-auto">
-          Many teachers&apos; families overpay for health insurance because of the &ldquo;Family Glitch&rdquo; &mdash;
+          Many families overpay for health insurance because of the &ldquo;Family Glitch&rdquo; &mdash;
           a rule that judged affordability based only on the employee&apos;s cost, not the family plan.
           Use this calculator to find out if your family may qualify for more affordable Marketplace coverage with subsidies.
         </p>
@@ -214,7 +214,7 @@ export default function FamilyGlitchCalculator() {
               <div className="bg-[#EBF3FC] rounded-xl p-4 text-sm text-[#334155] font-body leading-relaxed">
                 A plan that meets the <strong>Minimum Value Standard</strong> must cover at least 60% of the total cost of
                 medical services and provide substantial coverage of physician and inpatient hospital services.
-                Most employer plans, including TRS-ActiveCare, meet this standard. Use the <em>lowest-cost</em> plan
+                Most employer plans meet this standard. Use the <em>lowest-cost</em> plan
                 your employer offers that meets this requirement for the most accurate result.
               </div>
             )}

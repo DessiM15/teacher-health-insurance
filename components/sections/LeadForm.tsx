@@ -4,9 +4,9 @@ import { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 
 const coverageOptions = [
-  "On TRS-ActiveCare (Individual)",
-  "On TRS-ActiveCare (Family/Spouse)",
-  "I have other employer coverage",
+  "I have employer coverage (Individual)",
+  "I have employer coverage (Family/Spouse)",
+  "I'm a small business owner",
   "I'm uninsured / between coverage",
   "Approaching Medicare (65+)",
   "Just exploring my options",
@@ -109,7 +109,7 @@ export default function LeadForm() {
                 <input
                   type="email"
                   className={inputClass}
-                  placeholder="jane.doe@school.edu"
+                  placeholder="jane.doe@email.com"
                   value={form.email}
                   onChange={(e) => update("email", e.target.value)}
                 />

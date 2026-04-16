@@ -25,9 +25,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "New Horizons Benefits Group | Health Insurance for Texas Teachers",
+  title: "New Horizons Benefits Group | Health Insurance for Texans",
   description:
-    "Texas teachers are overpaying for health insurance. New Horizons Benefits Group helps you find better coverage and save $200–$500/month. Free review.",
+    "Texans are overpaying for health insurance. New Horizons Benefits Group helps businesses, families, and individuals find better coverage and save $200–$500/month. Free review.",
 };
 
 export default function RootLayout({

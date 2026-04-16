@@ -16,7 +16,7 @@ const cards = [
   {
     Icon: Building2,
     title: "ACA / Marketplace Plans",
-    body: "Federal marketplace plans with income-based subsidies. Often significantly cheaper than TRS-ActiveCare, especially for healthy individuals.",
+    body: "Income-based subsidies can dramatically reduce your premium — especially for individuals and families without employer coverage.",
   },
   {
     Icon: Shield,
@@ -26,7 +26,7 @@ const cards = [
   {
     Icon: Zap,
     title: "Accident Policies",
-    body: "Ideal for teachers with active kids in sports or physically demanding environments. Pays benefits directly to you, regardless of other coverage.",
+    body: "Ideal for families with active kids in sports or anyone in a physically demanding line of work. Pays benefits directly to you, regardless of other coverage.",
   },
   {
     Icon: Plus,
@@ -36,7 +36,7 @@ const cards = [
   {
     Icon: Award,
     title: "Medicare Guidance",
-    body: "Approaching 65 or transitioning off TRS? We walk you through supplement plans, Part D, and Medicare Advantage options step by step.",
+    body: "Approaching 65 or transitioning off employer coverage? We walk you through supplement plans, Part D, and Medicare Advantage options step by step.",
   },
 ];
 

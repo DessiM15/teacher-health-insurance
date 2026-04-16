@@ -3,27 +3,27 @@ import Image from "next/image";
 const testimonials = [
   {
     name: "Jennifer R.",
-    role: "Elementary Teacher, Cy-Fair ISD",
+    role: "Small Business Owner, Prosper TX",
     avatar:
       "https://ui-avatars.com/api/?name=Jennifer+R&background=1A5FAF&color=C9A040&bold=true&size=80",
     quote:
-      "I was paying over $650 a month for my family through TRS. Rigo found us a plan through New Horizons for $410. Same network, same doctors. I couldn\u2019t believe it was real.",
+      "I was paying over $650 a month for my family through my previous employer plan. Rigo found us a plan through New Horizons for $410. Same network, same doctors. I couldn\u2019t believe it was real.",
   },
   {
     name: "Marcus B.",
-    role: "High School Teacher",
+    role: "Self-Employed, Dallas TX",
     avatar:
       "https://ui-avatars.com/api/?name=Marcus+B&background=1A5FAF&color=C9A040&bold=true&size=80",
     quote:
-      "As a single healthy teacher I had no idea I qualified for a better plan at half the cost. The whole process took one phone call. Rigo handled everything.",
+      "As a single healthy guy I had no idea I qualified for a better plan at half the cost. The whole process took one phone call. Rigo handled everything.",
   },
   {
     name: "Patricia W.",
-    role: "Retiring Teacher",
+    role: "Retiring Professional",
     avatar:
       "https://ui-avatars.com/api/?name=Patricia+W&background=1A5FAF&color=C9A040&bold=true&size=80",
     quote:
-      "I was terrified about losing my coverage when I retired. Rigo walked me through every option patiently and got me set up with a Medicare supplement plan that fit my budget perfectly.",
+      "I was terrified about losing my employer coverage when I retired. Rigo walked me through every option patiently and got me set up with a Medicare supplement plan that fit my budget perfectly.",
   },
 ];
 
@@ -33,10 +33,10 @@ export default function Testimonials() {
       {/* Header */}
       <div className="max-w-3xl mx-auto text-center mb-14">
         <span className="font-display font-medium text-[0.8rem] uppercase tracking-widest text-[#C9A040]">
-          What Teachers Say
+          What Our Clients Say
         </span>
         <h2 className="font-display font-extrabold text-[#0F3F7A] text-3xl md:text-4xl mt-3">
-          Real Teachers. Real Savings.
+          Real Clients. Real Savings.
         </h2>
       </div>
 

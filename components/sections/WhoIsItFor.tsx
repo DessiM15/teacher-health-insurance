@@ -1,20 +1,20 @@
-import { User, Users, Calendar } from "lucide-react";
+import { User, Calendar, Briefcase, GraduationCap, Calculator, ArrowRight } from "lucide-react";
 
 const audiences = [
   {
     Icon: User,
-    title: "Individual Teachers",
-    body: "On a single plan and paying too much? We\u2019ll show you exactly what\u2019s available in your area and what you\u2019d save by switching.",
+    title: "Individuals & Families",
+    body: "Paying too much for coverage — or going without? We\u2019ll show you exactly what\u2019s available in your area and help you find a plan that fits your budget.",
   },
   {
-    Icon: Users,
-    title: "Teachers with Families",
-    body: "Spousal and dependent coverage through TRS can be brutal on the budget. Most teacher families we work with save $200\u2013$400/month by making the switch.",
+    Icon: Briefcase,
+    title: "Small Business Owners",
+    body: "Finding affordable group or individual plans for your team shouldn\u2019t be a full-time job. We\u2019ll help you explore options that protect your employees without breaking the bank.",
   },
   {
     Icon: Calendar,
-    title: "Teachers Approaching Retirement",
-    body: "Transitioning off TRS coverage? Turning 65? We\u2019ll walk you through every option \u2014 from bridge coverage to Medicare supplements \u2014 before you\u2019re locked into the wrong plan.",
+    title: "Approaching Retirement",
+    body: "Transitioning off employer coverage? Turning 65? We\u2019ll walk you through every option \u2014 from bridge coverage to Medicare supplements \u2014 before you\u2019re locked into the wrong plan.",
   },
 ];
 
@@ -27,7 +27,7 @@ export default function WhoIsItFor() {
           Is This For You?
         </span>
         <h2 className="font-display font-extrabold text-[#0F3F7A] text-3xl md:text-4xl mt-3">
-          Teachers in Every Situation
+          Coverage for Every Situation
         </h2>
       </div>
 
@@ -52,6 +52,44 @@ export default function WhoIsItFor() {
             </p>
           </div>
         ))}
+      </div>
+
+      {/* Texas Educators Callout */}
+      <div className="max-w-6xl mx-auto mt-10">
+        <div className="reveal bg-[#FDF8EE] rounded-2xl border border-[#E8D5A8] p-8 md:p-10 shadow-[0_2px_20px_rgba(201,160,64,0.1)]">
+          <div className="flex flex-col md:flex-row md:items-center gap-6">
+            <div className="shrink-0 flex items-center justify-center w-14 h-14 rounded-full bg-[#C9A040]/15">
+              <GraduationCap size={30} className="text-[#C9A040]" strokeWidth={1.75} />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-display font-extrabold text-[#0F3F7A] text-xl md:text-2xl mb-2">
+                Special Focus: Texas Educators
+              </h3>
+              <p className="font-body text-[#334155] text-[0.9375rem] leading-relaxed">
+                If you&apos;re on TRS-ActiveCare, you may be overpaying &mdash; especially for family coverage.
+                Thanks to the &ldquo;Family Glitch&rdquo; fix, many Texas teacher families now qualify for
+                subsidized Marketplace plans and save <strong className="text-[#0F3F7A]">$200&ndash;$400/month</strong> while
+                keeping the same doctors and PPO network access.
+              </p>
+              <div className="flex flex-wrap gap-4 mt-5">
+                <a
+                  href="#calculator"
+                  className="inline-flex items-center gap-2 bg-[#C9A040] text-[#0F3F7A] font-display font-bold text-sm px-6 py-3 rounded-xl hover:bg-[#A07C20] transition-colors duration-200 shadow-md hover:shadow-lg"
+                >
+                  <Calculator size={16} />
+                  Check Your Savings
+                </a>
+                <a
+                  href="#lead-form"
+                  className="inline-flex items-center gap-2 border-2 border-[#0F3F7A] text-[#0F3F7A] font-display font-bold text-sm px-6 py-3 rounded-xl hover:bg-[#0F3F7A] hover:text-white transition-colors duration-200"
+                >
+                  Get a Free Review
+                  <ArrowRight size={16} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

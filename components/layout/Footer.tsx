@@ -87,10 +87,10 @@ export default function Footer() {
             Licensed in TX · LA · OK · CA
           </span>
           <p className="text-white/60 text-sm">
-            Affiliated with Teachers Pension
+            Multi-Carrier Independent Agency
           </p>
           <p className="text-white/50 text-sm mt-1">
-            Serving Texas Educators
+            Serving Texans Since Day One
           </p>
         </div>
       </div>

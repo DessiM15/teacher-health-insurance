@@ -66,7 +66,7 @@ export default function Hero() {
           className="font-display font-extrabold text-white leading-tight mb-4 opacity-0 animate-[fadeUp_0.6s_ease_0.2s_forwards]"
           style={{ fontSize: "clamp(2.2rem, 4.5vw, 3.5rem)" }}
         >
-          Texas Teachers Are Overpaying for Health Insurance. Let&apos;s Change
+          Texans Are Overpaying for Health Insurance. Let&apos;s Change
           That.
         </h1>
 
@@ -75,9 +75,9 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="font-body text-white/80 text-lg max-w-xl mx-auto mb-8 opacity-0 animate-[fadeUp_0.6s_ease_0.4s_forwards]">
-          New Horizons Benefits Group helps teachers find better coverage and
-          keep more of their paycheck — through access to one of the largest PPO
-          networks in the country.
+          New Horizons Benefits Group helps individuals, families, and
+          businesses find better coverage and keep more of their money —
+          through access to one of the largest PPO networks in the country.
         </p>
 
         {/* Primary CTA */}

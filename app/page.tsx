@@ -4,6 +4,7 @@ import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
 import StatsBar from "@/components/sections/StatsBar";
 import CoverageOptions from "@/components/sections/CoverageOptions";
+import FamilyGlitchCalculator from "@/components/sections/FamilyGlitchCalculator";
 import NetworkSection from "@/components/sections/NetworkSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import WhoIsItFor from "@/components/sections/WhoIsItFor";
@@ -22,6 +23,7 @@ export default function Home() {
       <Hero />
       <StatsBar />
       <CoverageOptions />
+      <FamilyGlitchCalculator />
       <NetworkSection />
       <FeaturesSection />
       <WhoIsItFor />
